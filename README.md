@@ -2,38 +2,39 @@
 
 ## 📖 Deskripsi
 
-Repository ini berisi proyek **Ujian Tengah Semester (UTS)** Mata Kuliah **Pemrograman Web** dengan judul **Sistem Booking Servis Bengkel Motor Berbasis Web**. Aplikasi ini dikembangkan menggunakan **PHP, MySQL, HTML, CSS, JavaScript, dan Docker** untuk mempermudah pelanggan dalam melakukan booking servis motor secara online serta membantu pihak bengkel mengelola data pelanggan, mekanik, jadwal servis, dan proses pelayanan secara lebih efektif.
+Repository ini merupakan tugas **Ujian Tengah Semester (UTS)** Mata Kuliah **Pemrograman Web** Program Studi Teknik Informatasi Universitas Esa Unggul.
+
+Project yang dibuat berjudul **Sistem Booking Servis Bengkel Motor Berbasis Web**. Aplikasi ini dikembangkan untuk membantu pelanggan melakukan booking servis motor secara online serta memudahkan admin bengkel dalam mengelola data booking, pelanggan, mekanik, dan jadwal servis.
+
+Project ini dibuat menggunakan **PHP, MySQL, HTML, CSS, JavaScript**, serta dijalankan menggunakan **Docker**.
 
 ---
 
-## 🎯 Tujuan Project
+# 🎯 Tujuan Project
 
-Project ini dibuat untuk memenuhi tugas **Ujian Tengah Semester (UTS)** dengan tujuan:
-
-- Menerapkan konsep dasar Pemrograman Web.
-- Mengimplementasikan operasi CRUD (Create, Read, Update, Delete).
+- Menerapkan konsep Pemrograman Web.
+- Mengimplementasikan operasi CRUD.
 - Menghubungkan aplikasi dengan database MySQL.
-- Menggunakan Docker sebagai lingkungan pengembangan.
-- Membuat aplikasi berbasis web yang responsif dan mudah digunakan.
+- Menggunakan Docker sebagai development environment.
+- Membangun aplikasi web yang responsif dan mudah digunakan.
 
 ---
 
-## ✨ Fitur
+# ✨ Fitur
 
 - 🔐 Login Admin
+- 📊 Dashboard
 - 👤 Manajemen Data Pelanggan
 - 🏍️ Booking Servis Motor
-- 📅 Pengelolaan Jadwal Servis
-- 🔧 Manajemen Data Mekanik
-- 🛠️ Manajemen Jenis Servis
-- 📊 Dashboard Admin
+- 🔧 Data Mekanik
+- 📅 Jadwal Servis
 - 📄 Riwayat Booking
 - 🔍 Pencarian Data
 - 📱 Responsive Design
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+# 🛠️ Teknologi
 
 - PHP
 - HTML5
@@ -47,81 +48,78 @@ Project ini dibuat untuk memenuhi tugas **Ujian Tengah Semester (UTS)** dengan t
 
 ---
 
-## 📂 Struktur Project
+# 📂 Struktur Project
 
 ```text
 UTS-2026/
+│
+├── app/
 ├── config/
-├── database/
+├── db/
+├── nginx/
+├── php/
 ├── src/
-│   ├── public/
-│   ├── resources/
-│   ├── models/
-│   └── database/
-├── css/
-├── js/
-├── images/
+├── Dockerfile
 ├── docker-compose.yml
-├── uts_Sistem_Booking_Servis_Bengkel_Motor_Berbasis_Web.pdf
-└── README.md
+├── init.sql
+├── README.md
+└── uts_Sistem_Booking_Servis_Bengkel_Motor_Berbasis_Web (AutoRecovered).pdf
 ```
 
 ---
 
-## 📄 Dokumentasi
+# 📄 Dokumentasi
 
-Dokumentasi lengkap proyek UTS dapat diakses melalui file PDF berikut:
+Dokumentasi lengkap tugas UTS dapat dilihat pada file berikut.
 
-📘 **[uts_Sistem_Booking_Servis_Bengkel_Motor_Berbasis_Web.pdf](./uts_Sistem_Booking_Servis_Bengkel_Motor_Berbasis_Web.pdf)**
+## 📘 Laporan UTS
+
+➡️ **[Klik di sini untuk membuka Laporan UTS](./uts_Sistem_Booking_Servis_Bengkel_Motor_Berbasis_Web%20(AutoRecovered).pdf)**
 
 ---
 
-## 🚀 Cara Menjalankan Project
+# 🚀 Cara Menjalankan Project
 
-### 1. Clone Repository
+### Clone Repository
 
 ```bash
-git clone https://github.com/abdullahwahhid008-arch/UTS-2026.git
+git clone git@github.com:abdullahwahhid008-arch/UTS-2026.git
 ```
 
-### 2. Masuk ke Folder Project
+Masuk ke folder project
 
 ```bash
 cd UTS-2026
 ```
 
-### 3. Jalankan Docker
+Jalankan Docker
 
 ```bash
 docker compose up -d
 ```
 
-### 4. Buka Browser
+Buka browser
 
-```
+```text
 http://localhost:8080
 ```
 
 ---
 
-## 📸 Tampilan Aplikasi
+# 📸 Halaman Aplikasi
 
-Project ini terdiri dari beberapa halaman utama, antara lain:
-
-- Halaman Home
-- Halaman Login
+- Home
+- Login
 - Dashboard Admin
 - Data Pelanggan
 - Data Mekanik
-- Form Booking Servis
+- Booking Servis
 - Jadwal Servis
 - Riwayat Booking
 
-> Screenshot aplikasi dapat ditambahkan pada bagian ini.
-
 ---
 
-## 👨‍💻 Developer
+# 👨‍💻 Developer
 
 **Abdullah Wahid**
 
@@ -129,14 +127,11 @@ Project ini terdiri dari beberapa halaman utama, antara lain:
 - Program Studi : **Teknik Informatika**
 - Universitas : **Universitas Esa Unggul**
 
----
-
-## 📬 Kontak
-
-- GitHub : https://github.com/abdullahwahhid008-arch
+GitHub:
+https://github.com/abdullahwahhid008-arch
 
 ---
 
-## 📄 License
+# 📄 License
 
-Repository ini dibuat untuk memenuhi tugas **Ujian Tengah Semester (UTS)** Mata Kuliah **Pemrograman Web** Universitas Esa Unggul. Seluruh isi repository digunakan untuk keperluan pembelajaran dan pengembangan kemampuan di bidang pemrograman web.
+Repository ini dibuat sebagai tugas **Ujian Tengah Semester (UTS)** Mata Kuliah **Pemrograman Web** Universitas Esa Unggul dan digunakan untuk keperluan pembelajaran.

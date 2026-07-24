@@ -2,40 +2,45 @@
 
 ## 📖 Deskripsi
 
-Project ini dibuat sebagai tugas Ujian Tengah Semester (UTS) mata kuliah Pemrograman Web. Aplikasi ini dikembangkan menggunakan PHP, MySQL, HTML, CSS, JavaScript, dan Docker untuk membangun sistem berbasis web yang sederhana dan mudah digunakan.
+Project ini dibuat sebagai tugas **Ujian Tengah Semester (UTS)** mata kuliah **Pemrograman Web**. Aplikasi ini dikembangkan menggunakan **PHP, MySQL, HTML, CSS, JavaScript, dan Docker** untuk membangun sistem berbasis web yang sederhana, responsif, dan mudah digunakan.
 
 ---
 
-## 🔗 Project Terkait
+## 📄 Final Project
 
-### 🏍️ Tugas Akhir Pemrograman Web
-**Sistem Booking Servis Bengkel Motor Berbasis Web**
+Project ini merupakan bagian dari pengembangan **Final Project** dengan judul:
 
-Repository:
-https://github.com/abdullahwahhid008-arch/NAMA-REPOSITORY-TUGAS-AKHIR
+### 🏍️ Sistem Booking Servis Bengkel Motor Berbasis Web
 
-Project ini merupakan pengembangan dari konsep yang dipelajari pada UTS. Sistem menyediakan fitur booking servis motor secara online, pengelolaan data pelanggan, mekanik, jadwal servis, serta dashboard admin untuk mempermudah proses operasional bengkel.
+📘 **Laporan Final Project (PDF)**
+
+➡️ **[Lihat Laporan PDF](./BRD_Sistem_Booking_Servis_Bengkel_Motor_Berbasis_Web.pdf)**
 
 ---
 
 ## 🚀 Fitur
 
-- Login Admin
-- Dashboard
-- CRUD Data
-- Database MySQL
-- Responsive Design
+- 🔐 Login Admin
+- 📊 Dashboard
+- ➕ Tambah Data
+- ✏️ Edit Data
+- 🗑️ Hapus Data
+- 💾 Database MySQL
+- 📱 Responsive Design
 
 ---
 
 ## 🛠️ Teknologi
 
 - PHP
-- HTML
-- CSS
+- HTML5
+- CSS3
 - JavaScript
 - MySQL
 - Docker
+- Apache
+- Git
+- GitHub
 
 ---
 
@@ -43,20 +48,21 @@ Project ini merupakan pengembangan dari konsep yang dipelajari pada UTS. Sistem 
 
 ```text
 project/
+├── config/
+├── database/
+├── src/
+├── public/
 ├── css/
 ├── js/
 ├── images/
-├── database/
-├── index.php
-├── login.php
-├── dashboard.php
 ├── docker-compose.yml
+├── uts_Sistem_Booking_Servis_Bengkel_Motor_Berbasis_Web.pdf
 └── README.md
 ```
 
 ---
 
-## ▶️ Menjalankan Project
+## ▶️ Cara Menjalankan Project
 
 Clone repository
 
@@ -78,7 +84,7 @@ docker compose up -d
 
 Buka browser
 
-```text
+```
 http://localhost:8080
 ```
 
@@ -87,11 +93,13 @@ http://localhost:8080
 ## 👨‍💻 Developer
 
 **Abdullah Wahid**
-nim:20240801177
-Mahasiswa Teknik Informatika
+
+- 🎓 Teknik Informatika
+- 🏫 Universitas Esa Unggul
+- 📚 Mata Kuliah: Pemrograman Web
 
 ---
 
 ## 📄 License
 
-Project ini dibuat untuk keperluan pembelajaran dan tugas Ujian Tengah Semester (UTS) Pemrograman Web.
+Project ini dibuat untuk keperluan pembelajaran dan tugas **Ujian Tengah Semester (UTS)** serta pengembangan **Final Project Sistem Booking Servis Bengkel Motor Berbasis Web**.

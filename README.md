@@ -14,7 +14,7 @@ Project ini merupakan bagian dari pengembangan **Final Project** dengan judul:
 
 📘 **Laporan Final Project (PDF)**
 
-➡️ **[Lihat Laporan PDF](./BRD_Sistem_Booking_Servis_Bengkel_Motor_Berbasis_Web.pdf)**
+➡️ **[Lihat Laporan PDF](./uts_Sistem_Booking_Servis_Bengkel_Motor_Berbasis_Web.pdf)**
 
 ---
 

@@ -53,7 +53,7 @@
             <div class="bg-slate-50 border border-slate-200 rounded-2xl p-8 shadow-sm">
                 <div class="mb-6">
                     <span class="bg-emerald-100 text-emerald-800 text-xs font-bold px-3 py-1 rounded-full uppercase">Judul Tugas Akhir</span>
-                    <h3 class="text-2xl font-bold text-slate-900 mt-2"><?= isset($project['judul']) ? htmlspecialchars($project['judul']) : 'Sistem Pemesanan Es Teh dan Minuman Kekinian Berbasis Web' ?></h3>
+                    <h3 class="text-2xl font-bold text-slate-900 mt-2"><?= isset($project['judul']) ? htmlspecialchars($project['judul']) : 'Sistem Booking Servis Bengkel Motor Berbasis Web' ?></h3>
                 </div>
 
                 <div class="mb-8 bg-white p-4 border border-slate-200 rounded-xl">
@@ -70,10 +70,7 @@
                 <div class="space-y-6">
                     <div>
                         <h4 class="font-bold text-emerald-900 text-base mb-1"><i class="fa-solid fa-circle-exclamation mr-2"></i>Analisis Masalah & Solusi</h4>
-                        <p class="text-slate-600 text-sm leading-relaxed"><?= isset($project['deskripsi']) ? htmlspecialchars($project['deskripsi']) : 'Solusi digital berupa aplikasi web untuk memangkas antrean di gerai minuman kekinian, dilengkapi pencatatan pesanan otomatis dan manajemen stok bahan baku secara real-time.' ?></p>
-                    </div>
-
-                    <div>
+                            <p class="text-slate-600 text-sm leading-relaxed"><?= isset($project['deskripsi']) ? htmlspecialchars($project['deskripsi']) : 'Solusi digital berupa aplikasi web untuk memudahkan booking servis bengkel motor, mengatur jadwal mekanik, dan menampilkan laporan hasil servis secara rapi.' ?></p>
                         <h4 class="font-bold text-emerald-900 text-base mb-1"><i class="fa-solid fa-layer-group mr-2"></i>Infrastruktur & Tech Stack</h4>
                         <p class="text-slate-600 text-sm leading-relaxed">Sistem dibangun dengan pola <strong>MVC (Model-View-Controller)</strong> menggunakan PHP Native OOP. Seluruh ekosistem diisolasi menggunakan <strong>Docker Compose</strong> terbagi atas web server Apache dan basis data MySQL 8.0.</p>
                     </div>

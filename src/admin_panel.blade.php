@@ -23,7 +23,7 @@
         <div class="col-md-8">
             <h2 class="fw-bold text-dark mb-4"><i class="bi bi-sliders me-2"></i>Panel Admin Backend (Laravel Mode)</h2>
             <div class="card border-0 shadow-sm p-4 bg-white rounded">
-                <h6 class="fw-bold text-dark mb-4">Sistem Pemesanan Es Teh dan Minuman Kekinian Berbasis Web</h6>
+                <h6 class="fw-bold text-dark mb-4">Sistem Booking Servis Bengkel Motor Berbasis Web</h6>
                 <form>
                     <div class="mb-4">
                         <label for="status" class="form-label fw-bold">Ubah Status Progress:</label>

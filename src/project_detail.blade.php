@@ -37,14 +37,14 @@
             <div class="card border-0 shadow-sm p-4 mb-4 bg-white rounded">
                 <h4 class="fw-bold text-primary mb-3"><i class="bi bi-exclamation-triangle-fill me-2"></i>Analisis Masalah & Fitur Utama</h4>
                 <h5 class="fw-bold text-dark mt-3">Latar Belakang:</h5>
-                <p class="text-secondary">Sistem manual memicu penumpukan antrean pada peak hours, pencatatan manual rentan human error, dan sulitnya memantau sisa stok boba/gula cair secara real-time.</p>
+                <p class="text-secondary">Banyak bengkel motor masih menerima booking servis secara manual, menyebabkan antrean panjang, jadwal mekanik tidak teratur, dan riwayat servis sulit dilacak.</p>
                 <h5 class="fw-bold text-dark mt-4">Fitur Utama Sistem:</h5>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item text-secondary border-0 ps-0"><i class="bi bi-check-circle-fill text-success me-2"></i>Scan QR Code Meja</li>
-                    <li class="list-group-item text-secondary border-0 ps-0"><i class="bi bi-check-circle-fill text-success me-2"></i>Kustomisasi Gula & Es</li>
-                    <li class="list-group-item text-secondary border-0 ps-0"><i class="bi bi-check-circle-fill text-success me-2"></i>Monitor Dapur Barista</li>
-                    <li class="list-group-item text-secondary border-0 ps-0"><i class="bi bi-check-circle-fill text-success me-2"></i>Potong Stok Otomatis</li>
-                    <li class="list-group-item text-secondary border-0 ps-0"><i class="bi bi-check-circle-fill text-success me-2"></i>Dashboard Omzet Penjualan</li>
+                    <li class="list-group-item text-secondary border-0 ps-0"><i class="bi bi-check-circle-fill text-success me-2"></i>Booking servis motor online</li>
+                    <li class="list-group-item text-secondary border-0 ps-0"><i class="bi bi-check-circle-fill text-success me-2"></i>Penjadwalan mekanik otomatis</li>
+                    <li class="list-group-item text-secondary border-0 ps-0"><i class="bi bi-check-circle-fill text-success me-2"></i>Notifikasi pelanggan</li>
+                    <li class="list-group-item text-secondary border-0 ps-0"><i class="bi bi-check-circle-fill text-success me-2"></i>Kelola riwayat servis dan laporan proyek</li>
+                    <li class="list-group-item text-secondary border-0 ps-0"><i class="bi bi-check-circle-fill text-success me-2"></i>Dashboard admin bengkel</li>
                 </ul>
             </div>
         </div>

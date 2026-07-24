@@ -1,0 +1,3 @@
+cd /root/perkuliahan/crkosongdua
+cd src
+php artisan view:clear
